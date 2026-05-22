@@ -15,9 +15,6 @@ const Main = () => {
         setSearchTerm(searchValue)
     }
 
-    // const data = useData((state) => state.data)
-
-    // console.log(data)
 
 
     return (

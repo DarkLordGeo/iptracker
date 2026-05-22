@@ -16,7 +16,7 @@ const Button = (searchTerm: string) => {
 
     return (
         <button
-            className='bg-black hover:bg-black/90 text-on-secondary rounded-xl h-14 w-14 flex items-center justify-center transition-all active:scale-95 shrink-0 cursor-pointer'
+            className=' bg-black hover:bg-black/90 text-on-secondary rounded-xl h-14 w-14 flex items-center justify-center transition-all active:scale-95 shrink-0 cursor-pointer'
             onClick={() => searchFunction(searchTerm)}
         >
             <ChevronRight color='#fff' />
