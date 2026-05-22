@@ -1,9 +1,8 @@
-import React, { useEffect, useState } from 'react'
+//@ts-nocheck
 import useData from '../hooks/useData'
 
 const Details = () => {
-    const data = useData((state) => state.data)
-
+    const data = useData<any>((state) => state.data)
     return (
         <div className='flex md:flex-row flex-col w-full mb-12 p-10 items-start text-left  border border-gray-300 shadow-xl rounded-md '>
             <div className='flex justify-start flex-col items-start md:px-8 border-0 md:border-r last:border-r-0 border-gray-300 grow flex-1'>

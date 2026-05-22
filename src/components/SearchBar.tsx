@@ -1,4 +1,3 @@
-import React, { useEffect } from 'react'
 
 const SearchBar = ({ updateInput, inputValue }: any) => {
 

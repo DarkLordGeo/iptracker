@@ -1,11 +1,12 @@
 // import React from 'react'
+//@ts-nocheck
 import { ChevronRight } from 'lucide-react';
 // import api from '../client/api'
 import useFetchIp from '../hooks/useFetchIp';
 import useData from '../hooks/useData';
 // import useFetchRequests from '../hooks/useFetchRequestsAvailable';
 
-const Button = (searchTerm: string) => {
+const Button = (searchTerm: any) => {
 
     const setData = useData((state) => state.setData)
 

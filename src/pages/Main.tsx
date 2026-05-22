@@ -1,10 +1,8 @@
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import Background from '../components/Background'
 import Button from '../components/Button'
 import Details from '../components/Details'
-import ResultMap from '../components/ResultMap'
 import SearchBar from '../components/SearchBar'
-import useData from '../hooks/useData'
 
 const Main = () => {
 
@@ -29,7 +27,7 @@ const Main = () => {
                 <Details />
                 {/* <ResultMap /> */}
             </section>
-  
+
         </main>
     )
 }

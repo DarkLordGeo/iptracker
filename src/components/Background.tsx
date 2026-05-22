@@ -1,6 +1,5 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import { MapPin } from 'lucide-react';
-import useData from '../hooks/useData';
 // import useFetchRequests from '../hooks/useFetchRequestsAvailable';
 
 interface Props {
